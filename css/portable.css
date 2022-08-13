@@ -1,0 +1,172 @@
+
+ .container{
+    margin:0;
+ }
+
+ h1, header p, form, .filtres, .info{
+    margin-left: 10px;
+ }
+
+.banniere{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu ul{
+    width:100%;
+    justify-content: space-between;
+    margin:0px;
+    padding:0;
+}
+
+
+nav ul li{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 20px;
+    margin:0;
+}
+
+.menu a:hover {
+    border-top:none;
+    padding-top:0px;
+    border-bottom: #0065FC solid 3px;
+    padding-bottom: 20px;
+}
+
+#bouton_recherche{
+    display: none;
+}
+
+.recherche{
+    width:100%;
+}
+
+#loupe_portable{
+    display:inline;
+    border-style: none;
+}
+
+#loupe_portable i{
+    color: white;
+    background: #0065FC;
+    border-radius: 25%;
+    padding: 11px;
+}
+
+.liste_filtres{
+    flex-wrap: wrap;
+}
+
+.filtres{
+    flex-direction: column;
+}
+
+.filtre_item{
+    margin-bottom: 10px;
+}
+
+main{
+    flex-direction: column-reverse;
+}
+
+section{
+    background-color: white;
+}
+
+aside{
+    border-radius: 0px;
+}
+
+section, aside{
+    width:100%;
+    margin-top:20px;
+}
+
+.element{
+    width:90%;
+    margin: 0px 0px 40px 0px;
+}
+
+.cartes{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.etoile_pop{
+    padding-top: 15px;
+  }
+
+  .etoile_pop_coeur{
+    padding-top: 0px;
+  }
+
+  #activites{
+    margin-left: 15px;
+  }
+
+.activites{
+    flex-direction: column;
+    margin-left:15px;
+    width: 100%;
+}
+
+.colonne1, .colonne2, .colonne3, .colonne4{
+    width:90%;
+}
+
+.element_activites{
+    width:100%
+}
+
+.colonne1 .element_activites img{
+    height:10rem;
+}
+
+.colonne2 .element_activites #fort{
+    height:10rem;
+}
+
+.colonne2 .element_activites #iles{
+    height:10rem;
+}
+
+.colonne3 .element_activites img{
+    height:10rem;
+}
+
+.colonne4 .element_activites #parc{
+    height:10rem;
+}
+
+.colonne4 .element_activites #notre_dame{
+    height:10rem;
+}
+
+.footer{
+    flex-direction: column;
+}
+
+.footer .col{
+    padding: 0px 0px 20px 25px;
+
+}
